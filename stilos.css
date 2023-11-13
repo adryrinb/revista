@@ -1,0 +1,243 @@
+body {
+    font-family: sans-serif;
+    background: #F4F4F4;    
+  }
+  *{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  header {
+   padding: 10px;
+  }
+  
+  nav {
+    float: left;       
+  }
+  img{
+    height: 55%;
+    width: 55%;
+  }
+  nav, .menu{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;      
+    align-items: center;
+  }
+  li {
+    display: inline-block;   
+    margin: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 21px;    
+  }
+  
+  ul a:hover {
+    color: #fff;
+    background-color: #002D64;
+  }
+  main {
+    width: 100%;
+    margin-top: 200px;   
+    /*background: #bb29a3;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items:center;
+    align-items: center;
+  }    
+   .caja1{
+    background: #f2f6fa;      
+    width: 600px;
+    height: 450px;
+    padding-bottom: 10px; 
+    margin: 10px; 
+    padding-top: 20px;
+    border-radius: 5px;  
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);   
+  }
+  .titulo {
+    text-align: center;    
+    font-size: 1.7rem;
+    color: #002D64;    
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 10px;       
+    margin: 5px;
+    padding:5px;
+    width: 550px;
+    height: 320px;
+    justify-items:center;
+    align-items: center;
+  }    
+  .row{
+    width: 100%;
+  }  
+  .imagen {
+    width: 80%;
+    height: 300px;   
+  }  
+  .texto{
+    grid-row-end: 2;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  } 
+  .relevancia {
+    display: grid;
+    width:100%;
+    height: auto;
+    justify-items:center;
+    align-items: center;  
+    margin-top: 5px;
+    background-color: #738497;
+    max-width: 96%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+  }
+  .relevancia p, h2{
+    text-align: justify;
+    font-size: 1.5em;
+    color: #000;
+  }
+  footer {
+    background-color: #002D64;
+    width: 100%;
+    height: 100px;     
+  }
+  footer, p, h4{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #f2f6fa;
+    font-style: italic;
+  }
+  /* ===============pagina 2===============*/
+  .container {
+    display: grid;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    background: #f4f4f4;
+    width:100%;
+    height: auto;
+    justify-items:center;
+    align-items: center;       
+  }  
+  h1{
+    margin: 20px;
+  }
+  .imagen2 {
+    width: 100%;
+    height:auto;
+    text-align: center;       
+  }
+  .immagen2 img{
+    transform: scale(1);
+  transition: transform 2s;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+  fecha{
+    display: grid;
+    justify-items: start; 
+  }
+
+  .fecha h1{
+    font-size: 1em;
+    }
+  
+  .articulo {
+    background: #f2f6fa;
+    padding: 25px;
+    margin: 20px;
+    width: 90%;
+    height: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); 
+  }
+  .articulo p{
+    text-align: justify;
+    font-size: 1.5em;    
+    color: #000;
+  }
+  .articulo h2{
+    color: #000;
+  }
+  .articulo h5{
+    color: #000;
+  }
+  .biografia {
+    margin-top: 5px;
+    background-color: #002D64;
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    padding: 25px;
+  }
+  .biografia p, h2{
+    text-align: justify;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  .cine {
+    margin-top: 5px;
+    background-color: #738497;
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    padding: 25px;
+  }
+  .cine p, h2{
+    text-align: justify;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  .footer2{
+    margin-top: 80px;
+  }
+  /*=====================autor===============*/
+  .autor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+    height: auto;  
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); 
+  }
+  .columna-izquierda {
+    background-color: #fff;  
+    padding: 20px;  
+  }  
+  .columna-izquierda img{
+    align-items: center;
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+  }
+  .columna-derecha {
+    background-color: #889fbb;
+  }  
+  .foto-redonda {
+    border-radius: 50%;
+    border: 1px solid white;
+  }  
+  .titulo2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .texto2 {
+    font-size: 18px;
+    margin: 20px;
+    padding: 25px;
+    text-align: justify;
+  }
